@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <com.androidkun.xtablayout.XTabLayout
+            android:id="@+id/tabLayout"
+            app:xTabIndicatorColor="#1890FF"
+            app:xTabIndicatorHeight="2dp"
+            app:xTabDividerWidthWidthText="true"
+            app:xTabSelectedTextColor="#1890FF"
+            app:xTabTextColor="#333333"
+            app:xTabTextSize="16sp"
+            app:xTabSelectedTextSize="16sp"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"/>
+
+
+
+    </RelativeLayout>
+
+    <View
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E5E5E5"
+        />
+
+
+
+
+    <com.okayfan.jdareaselect.LimitSlideDirectionViewPager
+        android:id="@+id/vp_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+</LinearLayout>
