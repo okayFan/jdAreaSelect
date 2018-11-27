@@ -74,7 +74,6 @@ public class AreaFragment extends Fragment {
         rvArea.setLayoutManager(new LinearLayoutManager(getActivity()));
         areaAdapter = new AreaAdapter();
         rvArea.setAdapter(areaAdapter);
-        List<Area.DataBean.AreasBeanXX> provinceList = MainActivity.area.getData().getAreas();
         areaAdapter.setNewData(changeToAreasBean1(MainActivity.area.getData().getAreas()));
     }
 
