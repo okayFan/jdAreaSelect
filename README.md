@@ -10,7 +10,7 @@ Android项目中需要实现一个类似于京东地址选择器的效果, 拿�
 
 效果图如下
 
-[.]https://raw.githubusercontent.com/okayFan/jdAreaSelect/master/img/20181127181954473.png
+[.]https://github.com/okayFan/jdAreaSelect/blob/master/img/20181127181954473.png
 
 ~~~Only需要recyclerview,tablayout,viewpager 就能简单实现咱们的需求,而且后期非常便于拓展 （这谁还不会用~）
 
